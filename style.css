@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'xerographyregular';
+    src: url('fonts/xero4-webfont.eot');
+    src: url('fonts/xero4-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/xero4-webfont.woff2') format('woff2'),
+         url('fonts/xero4-webfont.woff') format('woff'),
+         url('fonts/xero4-webfont.ttf') format('truetype'),
+         url('fonts/xero4-webfont.svg#xerographyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+	background: #000000;
+	height: 100%;
+}
+
+body {
+  background: #000000;
+  color: yellow;
+	font-size: 24px;
+  font-family: monospace;
+	overflow: hidden;
+	font-family: 'xerographyregular';
+	height: 100%;
+}
+
+
+.accessGranted{
+	position:absolute;
+	top:200px;
+	background:#333;
+	padding:20px;
+	border:1px solid #999;
+	width:300px;
+	left:50%;
+	margin-left:-150px;
+	text-align:center;
+	z-index: 1;
+}
+
+.accessDenied{
+	position:absolute;
+	top:200px;
+	color:#F00;
+	background:#511;
+	padding:20px;
+	border:1px solid #F00;
+	width:300px;
+	left:50%;
+	margin-left:-150px;
+	text-align:center;
+	z-index: 1;
+}
+
+#wrap {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.3);
+}
+
+#wrapper {
+	background: transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 3;
+}
+
+#inner {
+	display: block;
+	width: 90%;
+	padding: 2% 5%;
+}
+
+#console li {
+  color: pink;
+  padding: 5px;
+  display: inline-block;
+}
+#console li {
+  font-size: 15px;
+  color: orange;
+  -webkit-transform: rotate(2.75deg);
+}
+#console li:nth-child(1n) {
+  font-size: 36px;
+  color: red;
+}
+#console li:nth-child(2n) {
+  font-size: 35px;
+  color: pink;
+}
+#console li:nth-child(3n) {
+  font-size: 45px;
+  color: white;
+  -webkit-transform: rotate(-2.5deg);
+}
+#console li:nth-child(5n) {
+  font-size: 57px;
+  color: blue;
+  -webkit-transform: scale(1.1);
+}
+#console li:nth-child(6n) {
+	font-size: 65px;
+  color: brown;
+  -webkit-transform: rotate(4deg);
+}
+#console li:nth-child(7n) {
+	font-size: 75px;
+  color: orange;
+  -webkit-transform: rotate(-4deg);
+}
+#console li:nth-child(8n) {
+  font-size: 25px;
+  color: cyan;
+}
+#console li:nth-child(9n) {
+  font-size: 75px;
+  color: white;
+}
+#console li:nth-child(10n) {
+  font-size: 55px;
+  color: purple;
+  -webkit-transform: rotate(-2.5deg);
+}
+#console li:nth-child(11n) {
+  font-size: 70px;
+  color: blue;
+  -webkit-transform: scale(1.1);
+}
+#console li:nth-child(12n) {
+	font-size: 85px;
+  color: yellow;
+  -webkit-transform: rotate(4deg);
+}
+#console li:nth-child(13n) {
+	font-size: 75px;
+  color: green;
+  -webkit-transform: rotate(-4deg);
+}
+
+
+#bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 104%;
+	height: 104%;
+	margin-left: -2%;
+	margin-top: -2%;
+}
